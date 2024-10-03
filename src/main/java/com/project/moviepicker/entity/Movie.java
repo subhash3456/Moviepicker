@@ -16,7 +16,7 @@ public class Movie {
 	
 	@Id
 	
-	@GeneratedValue(strategy= GenerationType.AUTO)
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private long id;
 	private String name;
 	private String rating;
@@ -24,5 +24,6 @@ public class Movie {
 	private String suggestedBy;
 	private String genre;
 	private String trailerlink;
+	private String viewed;
 
 }
